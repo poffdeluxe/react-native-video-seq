@@ -14,3 +14,9 @@ Check out the [example project](https://github.com/poffdeluxe/react-native-video
 ## TODO
 1. TESTS
 2. Not sure yet
+
+## Video Credit
+Example videos by:
+1. [Jonathan Mitchell](http://mazwai.com/#/grid/videos/221)
+2. [Maria Boyarina](http://mazwai.com/#/grid/videos/186)
+3. [Christophe Tauziet](http://mazwai.com/#/grid/videos/183)
