@@ -1,6 +1,6 @@
 {
   "name": "react-native-video-seq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper for react-native-video that supports playing a sequence of videos",
   "main": "VideoSeq.js",
   "directories": {
