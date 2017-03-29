@@ -1,7 +1,7 @@
 {
   "name": "react-native-video-seq",
   "version": "1.0.0",
-  "description": "A wrapper for react-native-video that supports a sequence of videos",
+  "description": "A wrapper for react-native-video that supports playing a sequence of videos",
   "main": "VideoSeq.js",
   "directories": {
     "example": "example"
@@ -9,7 +9,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Poff Poffenberger",
+  "author": "Poff Poffenberger <poffdeluxe@gmail.com> (https://poff.sexy)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:poffdeluxe/react-native-video-seq"
+  },
   "license": "ISC",
   "dependencies": {
     "react-native-video": "^1.0.0"
