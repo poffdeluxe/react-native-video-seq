@@ -18,6 +18,7 @@
   "dependencies": {
     "react": "~15.4.0",
     "react-native": "0.42.3",
-    "react-native-video": "^1.0.0"
+    "react-native-video": "^1.0.0",
+    "react-native-video-seq": "^1.0.0"
   }
 }

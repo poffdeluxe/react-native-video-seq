@@ -2905,6 +2905,12 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
+react-native-video-seq@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-video-seq/-/react-native-video-seq-1.0.0.tgz#77e5c9a5d8592e91a262cee23bd98872ccc3080f"
+  dependencies:
+    react-native-video "^1.0.0"
+
 react-native-video@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-1.0.0.tgz#ba92b9e1a114c2c1f3a6144b0639ca3f69a0cc74"
