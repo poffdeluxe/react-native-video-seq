@@ -9,7 +9,7 @@ I wrote this component for a personal project and I figured I'd share it with th
 3. You should be good to go
 
 ## Examples
-Check out the [example project](https://github.com/poffdeluxe/react-native-video-seq)
+Check out the [example project](https://github.com/poffdeluxe/react-native-video-seq/tree/master/example)
 
 ## TODO
 1. TESTS
