@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Video from 'react-native-video';
 
 class VideoSeq extends React.Component {
@@ -32,7 +33,7 @@ class VideoSeq extends React.Component {
     const curVid = this.props.videos[this.state.curVidIndex];
 
     const { source, repeat, onEnd, ...passThroughProps } = this.props;
-    passThroughProps.onEnd = this.onEnd
+    passThroughProps.onEnd = this.onEnd;
 
     return (
       <Video source={curVid} {...passThroughProps} />
@@ -41,7 +42,7 @@ class VideoSeq extends React.Component {
 }
 
 VideoSeq.propTypes = {
-  videos: React.PropTypes.array.isRequired,
+  videos: PropTypes.array.isRequired,
   ...Video.propTypes
 };
 

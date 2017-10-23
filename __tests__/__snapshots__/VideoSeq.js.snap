@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calls passed in onEnd function if it exists 1`] = `
+<Video
+  onEnd={[Function]}
+  source="vid1.mov"
+  videos={
+    Array [
+      "vid1.mov",
+    ]
+  }
+/>
+`;
+
+exports[`calls passed in onEnd function if it exists 2`] = `
+<Video
+  onEnd={[Function]}
+  source="vid1.mov"
+  videos={
+    Array [
+      "vid1.mov",
+    ]
+  }
+/>
+`;
+
+exports[`changes to the next video when one ends 1`] = `
+<Video
+  onEnd={[Function]}
+  source="vid1.mov"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+      "vid3.avi",
+    ]
+  }
+/>
+`;
+
+exports[`changes to the next video when one ends 2`] = `
+<Video
+  onEnd={[Function]}
+  source="vid2.webm"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+      "vid3.avi",
+    ]
+  }
+/>
+`;
+
+exports[`changes to the next video when one ends 3`] = `
+<Video
+  onEnd={[Function]}
+  source="vid3.avi"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+      "vid3.avi",
+    ]
+  }
+/>
+`;
+
+exports[`changes to the next video when one ends 4`] = `
+<Video
+  onEnd={[Function]}
+  source="vid3.avi"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+      "vid3.avi",
+    ]
+  }
+/>
+`;
+
+exports[`resets to the first vid if repeat is on 1`] = `
+<Video
+  onEnd={[Function]}
+  source="vid1.mov"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+    ]
+  }
+/>
+`;
+
+exports[`resets to the first vid if repeat is on 2`] = `
+<Video
+  onEnd={[Function]}
+  source="vid2.webm"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+    ]
+  }
+/>
+`;
+
+exports[`resets to the first vid if repeat is on 3`] = `
+<Video
+  onEnd={[Function]}
+  source="vid1.mov"
+  videos={
+    Array [
+      "vid1.mov",
+      "vid2.webm",
+    ]
+  }
+/>
+`;
